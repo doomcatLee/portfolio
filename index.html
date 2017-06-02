@@ -16,10 +16,25 @@
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+        Typed.new(".element", {
+          strings: ["a Software Developer", "an entrepreneur", "a team leader", "a musician", "a gamer"],
+          typeSpeed: 100,
+          startDelay: 800,
+          backSpeed: 30,
+          loop: null
+        });
+      });
+    </script>
+
+    </script>
 
 
     <link href="css/styles.css" rel="stylesheet">
@@ -69,8 +84,9 @@
     <header>
         <div class="container">
             <div class="intro-text">
+
                 <div class="intro-lead-in">Hi, I'm Gun Lee</div>
-                <div class="intro-heading">I am a software developer</div>
+                <div class="intro-heading">I am <span class="element"></span></div>
                 <a href="#about" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
@@ -283,7 +299,7 @@
                                         <h4 class="subheading">Epicodus</h4>
                                     </div>
                                     <div class="timeline-body">
-                                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                        <p class="text-muted">The Java/JavaScript/Android Epicodus bootcamp is an immersive 40 hour per week program that emphasizes pair-programming, test-driven development, and solving problems in both a group and individual level.</p>
                                     </div>
                                 </div>
                             </li>
