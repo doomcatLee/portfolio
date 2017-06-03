@@ -255,7 +255,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 500px;
+    padding-top: 10%;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -266,6 +266,8 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
+    width: 130%;
+    padding-right: 22%;
     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
@@ -278,9 +280,10 @@ section {
   padding: 100px 0;
 }
 section h2.section-heading {
+
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -492,6 +495,10 @@ section h3.section-subheading {
   }
 }
 @media (min-width: 992px) {
+  header .intro-text {
+    padding-top: 30%;
+    padding-bottom: 200px;
+  }
   .timeline > li {
     min-height: 150px;
   }
@@ -763,4 +770,9 @@ body {
 	0% { opacity:1; }
 	50% { opacity:0; }
 	100% { opacity:1; }
+}
+
+
+#about{
+  margin-top: -3%;
 }
