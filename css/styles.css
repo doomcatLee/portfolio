@@ -286,6 +286,7 @@ section {
 }
 section h2.section-heading {
 
+  color: #F3FFBD;
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 35px;
@@ -781,4 +782,12 @@ body {
 #about{
   margin-top: -5%;
   background-color: #F3FFBD;
+}
+
+#story p{
+  color: black;
+}
+
+#story h4{
+  color: #247BA0;
 }
