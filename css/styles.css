@@ -46,11 +46,11 @@ h6 {
   margin: 0 auto;
 }
 .bg-color1 {
-  background-color: #C2E7D9;
+  background-color: #B2DBBF;
 }
 
 .bg-color2{
-  background-color: #A6CFD5
+  background-color: #70C1B3
 }
 .bg-darkest-gray {
   background-color: #222222;
@@ -101,8 +101,8 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
   color: white;
-  background-color: #A6CFD5;
-  border-color: #A6CFD5;
+  background-color: #FF1654;
+  border-color: #FF1654;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -116,8 +116,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
   color: white;
-  background-color: #A6CFD5;
-  border-color: #A6CFD5;
+  background-color: #FF1654;
+  border-color: #FF1654;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -147,7 +147,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: white;
 }
 .navbar-custom {
-  background-color: #222222;
+  background-color: #247BA0;
   border-color: transparent;
 }
 .navbar-custom .navbar-brand {
@@ -164,8 +164,8 @@ fieldset[disabled] .btn-xl.active {
   border-color: rgba(255, 255, 255, 0.02);
 }
 .navbar-custom .navbar-toggle {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #247BA0;
+  border-color: #247BA0;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: white;
@@ -190,12 +190,12 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-nav > .active > a {
   border-radius: 0;
   color: white;
-  background-color: #A6CFD5;
+  background-color: #FF1654;
 }
 .navbar-custom .navbar-nav > .active > a:hover,
 .navbar-custom .navbar-nav > .active > a:focus {
   color: white;
-  background-color: #C2E7D9;
+  background-color: #FF1654;
 }
 @media (min-width: 768px) {
   .navbar-custom {
@@ -218,7 +218,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom.affix {
-    background-color: #1D1759;
+    background-color: #247BA0;
     padding: 10px 0;
   }
   .navbar-custom.affix .navbar-brand {
@@ -780,5 +780,5 @@ body {
 
 #about{
   margin-top: -5%;
-  background-color: #e5e5e5;
+  background-color: #F3FFBD;
 }
